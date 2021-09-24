@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="urbanLadder.listeners" />
+		<listener class-name="resources.ExtentReporterNG" />
+	</listeners>
+	<test name="Validating Text displayed in the Page">
+		<classes>
+			<class name="urbanLadder.Search" />
+		</classes>
+	</test>
+	<test name="Validating Messages displayed in the Page">
+		<classes>
+			<class name="urbanLadder.TrackOrder" />
+		</classes>
+	</test>
+	<test name="Validating displayed Page">
+		<classes>
+			<class name="urbanLadder.Header1" />
+		</classes>
+	</test>
+	<test name="Validating displayed Site">
+		<classes>
+			<class name="urbanLadder.Header2" />
+		</classes>
+	</test>
+	<test name="Validating displayed Web Page">
+		<classes>
+			<class name="urbanLadder.Link1" />
+		</classes>
+	</test>
+	<test name="Validating Title displayed in the Page">
+		<classes>
+			<class name="urbanLadder.Link2" />
+		</classes>
+	</test>
+	<test name="Validating Lines displayed in the Page">
+		<classes>
+			<class name="urbanLadder.Subscribe" />
+		</classes>
+	</test>
+	<test name="Validating Heading displayed in the Page">
+		<classes>
+			<class name="urbanLadder.Button" />
+		</classes>
+	</test>
+	<!-- Test -->
+</suite> <!-- Suite -->

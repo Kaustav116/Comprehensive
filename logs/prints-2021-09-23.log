@@ -1,0 +1,7 @@
+16:23:47.540 [main] INFO  resources.base - Driver initialized.
+16:23:50.403 [main] INFO  resources.base - Navigated to Homepage.
+16:24:23.872 [main] INFO  resources.base - Successfully validated messages displayed.
+16:24:30.859 [main] INFO  resources.base - Successfully validated messages displayed.
+16:24:42.012 [main] INFO  resources.base - Successfully validated page displayed.
+16:24:53.415 [main] INFO  resources.base - Successfully validated site displayed.
+16:25:03.324 [main] INFO  resources.base - Successfully validated webpage displayed.
